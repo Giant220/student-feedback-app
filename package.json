@@ -12,9 +12,11 @@
     "render-build": "npm install && cd backend && npm install && cd ../frontend && npm install && npm run build"
   },
   "dependencies": {
-    "concurrently": "^8.2.0"
+    "concurrently": "^8.2.0",
+    "sqlite3": "^5.1.7"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": "18.20.4",
+    "npm": "10.7.0"
   }
 }
